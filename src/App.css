@@ -2,6 +2,7 @@
   position: relative;
   min-height: 100vh; /* Set minimum height to cover the entire viewport */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 2;

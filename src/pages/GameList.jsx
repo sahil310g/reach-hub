@@ -26,7 +26,6 @@ function GameList() {
                   {
                     method: "GET",
                     headers:{
-                        // 'Content-Type': 'application/json',
                         'Accept': 'application/x-ndjson'
                     }
                   }
@@ -52,6 +51,7 @@ function GameList() {
     
   return (
     <div>
+        <h1>Game List</h1>
         <div className="userInput">
             <input className='username' type="text" placeholder='Enter your username' value={input} onChange={handleChange} />
             <button onClick={handleSubmit}> Submit </button>
